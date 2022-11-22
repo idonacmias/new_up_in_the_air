@@ -13,7 +13,7 @@ db.init_app(app)
 
 
 @app.route("/")
-def hello_world():
+def init():
     return "<p>Hello, World!</p>"
 
 
